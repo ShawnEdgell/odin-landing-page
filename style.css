@@ -1,5 +1,5 @@
 * {
-    border: 1px solid red; 
+    border: 0px solid red; 
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -16,7 +16,8 @@ body{
     justify-content: space-between;
     background-color: #1f2937;
     gap: 20px;
-    padding: 0px 100px;
+    padding: 12px 200px;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -49,15 +50,16 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px ;
-    padding: 20px 100px;
+    gap: 30px;
+    padding: 50px 200px;
 }
+
 
 .card-container {
     display: flex;
     flex-direction: column;
-    padding: 80px 0 80px 0;
-    gap: 5px;
+    padding: 100px 0 100px 0;
+    gap: 8px;
     width: 50%;
 
 }
@@ -69,11 +71,13 @@ button {
     color: #f9faf8;
     font-size: 18px;
     min-width: 120px;
+    margin-top: 10px;
 }
 
 h2 {
     display: flex;
-    font-size: 5vw;
+    font-size: 4vw;
+    color: #f9faf8;
 }
 
 p {
@@ -85,5 +89,97 @@ p {
 }
 
 img {
-    width: 100px;
+    width: 200px;
+}
+
+h3 {
+    font-size: 36px;
+    padding: 70px 0;
+    color: #1f2937;
+    font-weight: bold;
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.icons-container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 100px 140px 100px;
+    background-color: #f9faf8;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-a {
+    border-radius: 10%;
+    border: 5px solid #3882f6;
+}
+
+.icons p {
+    text-align: center;
+    padding-top: 10px;
+    width: 200px;
+    color: #1f2937;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 200px;
+}
+
+.quote-body {
+    font-size: 36px ;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    text-align: left;
+}
+
+.quote-name {
+    font-size: 32px ;
+    font-weight: bold;
+    font-style: italic;
+    color: #1f2937;
+    text-align: right;
+    padding: 10px 35px 0 0;
+}
+
+.action-container {
+    display: flex;
+    padding: 100px 100px;
+    justify-content: center;
+}
+
+.cta-container {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: #f9faf8;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.button-2 {
+    border: 3px solid #f9faf8;
+}
+
+.footer-container {
+    padding: 50px 0;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    text-align: center;
 }
