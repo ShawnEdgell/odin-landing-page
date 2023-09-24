@@ -23,6 +23,7 @@ h1 {
 a {
     font-size: 18px;
     color: #f9faf8;
+    text-decoration: none;
 }
 
 .links {
@@ -51,7 +52,7 @@ a {
 .card {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 8px;
     max-width: 350px;
     justify-content: center;
 }
@@ -73,7 +74,6 @@ button {
 }
 
 h3 {
-    background-color: #f9faf8;
     font-size: 36px;
     text-align: center;
     padding: 40px 0;
@@ -96,7 +96,6 @@ h3 {
     justify-content: center;
     gap: 40px;
     padding: 0 0 80px 0;
-    background-color: #f9faf8;
 }
 
 .icon {
@@ -132,7 +131,6 @@ h3 {
     justify-content: center;
     align-items: center;
     padding: 80px 0;
-    background-color: #f9faf8;
 }
 
 h4 {
