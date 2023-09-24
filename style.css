@@ -5,10 +5,6 @@
     border: 1px solid red;
 }
 
-.icons {
-    width: 200px;
-}
-
 .header {
     background-color: #1f2937;
     color: #f9faf8;
@@ -39,7 +35,8 @@ a {
 .imageMain {
     max-width: 36.75%;
     object-fit: scale-down;
-    min-width: 350px;
+    min-width: 270px;
+    border-right: 20px;
 }
 
 .landing {
@@ -48,8 +45,8 @@ a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px 36px;
     padding: 0 0 20px 0;
+    gap: 20px 0;
 }
 
 .card {
@@ -58,6 +55,8 @@ a {
     gap: 4px;
     max-width: 350px;
     justify-content: center;
+    border-left: 20px;
+    padding: 0 20px;
 }
 
 h2 {
@@ -77,3 +76,56 @@ button {
     color: #f9faf8;
 }
 
+h3 {
+    background-color: #f9faf8;
+    font-size: 36px;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.group1 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 200px;
+    gap: 4px;
+    color: #1f2937;
+    font-size: 18px;
+    background-color: #f9faf8;
+}
+
+.icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 0 80px 0;
+}
+
+.icon {
+    border-radius: 10%;
+    border: 5px solid #3882f6;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 80px 20px 80px 20px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    max-width: 920px;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+}
