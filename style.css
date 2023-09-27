@@ -12,7 +12,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 20px 0 40px 0;
-    gap: 20px 80px;
+    gap: 20px 75px;
     
 }
 
@@ -29,7 +29,7 @@ a {
 .links {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 30px;
     justify-content: center;
 }
 
@@ -64,6 +64,7 @@ h2 {
 .p1 {
     font-size: 18px;
     color: #e5e7eb;
+    font-weight: normal;
 }
 
 button {
@@ -166,5 +167,43 @@ footer {
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
+}
 
+.icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 0 80px 0;
+}
+
+.icon {
+    border-radius: 10%;
+    border: 5px solid #3882f6;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.icon:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+    background-color: #f9faf8; /* Change background color on hover */
+}
+
+.icon + p {
+    margin-top: 0; /* Initial margin */
+    transition: margin-top 0.3s; /* Add a smooth transition for margin-top */
+}
+
+.icon:hover + p {
+    margin-top: 20px; /* Increase the top margin of the <p> element on hover */
+}
+
+.imageMain {
+    max-width: 36.75%;
+    object-fit: scale-down;
+    min-width: 270px;
+    transition: transform 0.3s;
+}
+
+.imageMain:hover {
+    transform: scale(1.1); /* Increase the size on hover */
 }
